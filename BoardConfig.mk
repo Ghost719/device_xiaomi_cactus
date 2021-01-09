@@ -32,7 +32,6 @@ BOARD_BUILD_DISABLED_VBMETAIMAGE := true
 # Encryption
 PLATFORM_SECURITY_PATCH := 2099-12-31
 TW_INCLUDE_CRYPTO := true
-TW_NO_VERITY_OPT_ENCRYPT := true
 TW_CRYPTO_USE_SYSTEM_VOLD := keymaster-3-0 servicemanager hwservicemanager gatekeeper-1-0
 TW_INCLUDE_FBE := true
 
