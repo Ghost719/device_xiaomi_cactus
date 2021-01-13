@@ -1,0 +1,6 @@
+ro.secure=0
+ro.mediatek.platform=MT6765
+ro.hardware=mt6765
+ro.crypto.volume.filenames_mode=aes-256-cts
+persist.sys.adb.shell=/sbin/sh
+persist.sys.usb.config=mtp,adb
